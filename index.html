@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="icon" href="//us0-cdn.onlineradiobox.com/img/favicon.ico" type="image/x-icon">
+  <!-- estilos CSS -->
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body>
+<!--contenedor principal-->
+  <div class="contenedor">
+    <!--informacion colunma izquierda-->
+    <div class="left">
+      <div class="profileText">
+        <div class="img">
+          <img src="" alt="profile_photo">
+        </div>
+        <h2 id="name">Nombre:</h2>
+        <span>Desarrador Web</span>
+        <!--boton tomando de la API Random User Generator-->
+        <button onClick="window.location.reload();">Cambiar Persona</button>
+      </div>
+        <!--informacion personal-->
+      <div class="info">
+        <h3 class="title">Acerca de mi</h3>
+        <ul>
+          <li>
+            <span id="direccion" class="text">Direccion: </span>
+          </li>
+          <li>
+            <span id="genero" class="text">Genero: </span>
+          </li>
+          <li>
+            <span id="edad" class="text">Edad: </span>
+          </li>
+          <li>
+            <span id="birthdate" class="text">Fecha de Nacimiento: </span>
+          </li>
+        </ul>
+      </div>
+         <!--informacion de contacto--> 
+      <div class="info">
+        <h3 class="title">Inormacion de Contacto</h3>
+        <ul>
+          <li>
+            <span id="celular" class="text">Cel: </span>
+          </li>
+          <li>
+            <span id="telefono" class="text">Telefono: </span>
+          </li>
+          <li>
+            <span id="email" class="text">Email: </span>
+          </li>
+        </ul>
+      </div>
+         <!--estudios relizados-->
+      <div class="info education">
+        <h3 class="title">Estudios</h3>
+        <ul>
+          <li>
+            <h5>1992 - 1997</h5>
+            <h4>Bachiller Academico</h4>
+            <span>Institucion Educativa Departamental Liceo Ariguani</span>
+          </li>
+          <li>
+            <h5><br>1998 - 2000</h5>
+            <h4>Tecnologia en ingenieria de sistemas </h4>
+            <span>Politecnico de la Costa Atlantica</span>
+          </li>
+          <li>
+            <h5><br>2001 - 2003</h5>
+            <h4>ingenieria de sistemas </h4>
+            <span>Universidad Autonoma de Colombia</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="info">
+        <h3 class="title">Idiomas</h3>
+        <ul>
+          <li>
+            <span class="text">- Ingles</span>
+            <progress value="40" max="100"></progress>
+          </li>
+          <li>
+            <span class="text">- Espanol</span>
+            <progress value="90" max="100"></progress>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <!--informacion columna de la derecha-->
+    <div class="right">
+      <div class="about">
+        <h2 class="rightSideTitle">Perfil</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula sit amet ligula id varius. Sed auctor
+          posuere enim, ut consequat velit bibendum vel. Nullam cursus, risus sed pulvinar maximus, mi velit vulputate
+          odio, vitae imperdiet neque augue et turpis.<br><br> Sed suscipit, lectus vulputate consequat ullamcorper,
+          mauris
+          felis efficitur erat, ut convallis mauris metus non ante. Aenean porttitor imperdiet odio eu sagittis. </p>
+      </div>
+
+      <div class="about">
+        <h2 class="rightSideTitle">experiencias</h2>
+        <div class="box">
+          <div>
+            <h5>2021 - Present</h5>
+            <h5>- Farmacity</h5>
+          </div>
+          <div class="text">
+            <h4>Fullstack Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h5>2015 - 2020</h5>
+            <h5>- Banco Galicia</h5>
+          </div>
+          <div class="text">
+            <h4>Frontend Developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div>
+            <h5>2013 - 2015</h5>
+            <h5>- Grido</h5>
+          </div>
+          <div class="text">
+            <h4>Backend Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about skills">
+        <h2 class="rightSideTitle">Adicionales</h2>
+        <div class="box">
+          <h4>- Dominio de PHP, MySQL, HTML5, CSS3 y Javascript.</h4>
+        </div>
+        <div class="box">
+          <h4>- Conocimiento de las bases de datos MySQL, PostgreSQL.</h4>
+        </div>
+        <div class="box">
+          <h4>- Disponibilidad inmediata.</h4>
+        </div>
+        <div class="box">
+          <h4>- Git, Bootstrap</h4>
+        </div>
+        <div class="box">
+          <h4>- Capacidad de liderazgo y trabajo en equipo.</h4>
+        </div>
+        <div class="box">
+          <h4>- C, C++.</h4>
+        </div>
+      </div>
+    </div>
+    <!--informacion al pie de la pagina-->
+    <footer>
+      <p class="pie">Página creada por Humberto Farelo.</p>
+      <p class="pie">Contacto: humbertofarelo81@gmail.com</p>
+      <p class="pie">La información fue extraída de la API Random User Generator</p>
+      <p class="pie">CV creado en la siguiente <a href="https://zety.es/blog/curriculum-programador">página</a>.</p>
+    </footer>
+  </div>
+  <!--script. invoca la funcion que retorna, los datos de las personas incluidad en la randon de la API-->
+  <script src="src/js/main.js"></script>
+  
+</body>
+
+</html>
